@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Auto-Incognito",
+  "version": "1.0",
+  "description": "Automatically opens a YouTube URL in an incognito tab if the 'Ad Blockers are against TOS' popup occurs.",
+  "permissions": [],
+  "incognito": "split",
+  "icons": {
+  },
+  "content_scripts": [
+    {
+      "js": ["scripts/content.js"],
+      "matches": [
+        "https://www.youtube.com/*"
+      ]
+    }
+  ],
+  "background": {
+    "service_worker": "scripts/background.js"
+  }
+}
