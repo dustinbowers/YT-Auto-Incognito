@@ -3,7 +3,7 @@ This extension will automatically open a YouTube video link in incognito mode if
 
 **NOTE:** You must allow your adblocker to run in incognito mode for this extension to be effective
 
-### How to use
+## How to use
 
 First, ensure that your preferred Ad Blocker is allow to run in Incognito mode (I recommend [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm) if you don't already have one)
 ```
