@@ -1,11 +1,13 @@
 # YT-Auto-Incognito
-This extension will automatically open a YouTube video link in incognito mode if the *Ad Blockers are against TOS* popup occurs. If you have an adblocker enabled in incognito mode, this will allow you to watch YouTube videos without watching ads.
+This extension will automatically open a YouTube video link in incognito mode if the *Ad Blockers are against TOS* popup occurs. If you have an adblocker enabled in incognito mode, this will allow you to watch YouTube videos without getting the TOS popup
+
+This works because YouTube doesn't show the TOS popup if you're not logged into an account.
 
 **NOTE:** You must allow your adblocker to run in incognito mode for this extension to be effective
 
 ## How to use
 
-First, ensure that your preferred Ad Blocker is allow to run in Incognito mode (I recommend [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm) if you don't already have one)
+First, ensure that your preferred Ad Blocker is allowed to run in Incognito mode (I recommend [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm) if you don't already have one)
 ```
 1. In a new Incognito window, go to `chrome://extensions`
 2. Find the ad-blocking extension that you want to allow in Incognito mode.
